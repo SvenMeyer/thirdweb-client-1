@@ -38,7 +38,8 @@ function DefaultConnectButton() {
                 client={client}
                 //Change modal size to compact or wide
                 connectModal={{
-                    size: "compact"
+                    size: "wide"
+                    // size: "compact"
                 }}
             />
         </div>
