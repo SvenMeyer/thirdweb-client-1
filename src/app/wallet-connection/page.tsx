@@ -35,6 +35,9 @@ function ConnectWallet () {
             <p  className="text-zinc-300 text-base mb-4 md:mb-4">Connect a wallet</p>
             <ConnectButton
                 client={client}
+                connectModal={{
+                    size: "wide"
+                }}
             />
         </div>
     )
